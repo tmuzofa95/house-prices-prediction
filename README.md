@@ -121,7 +121,7 @@ house-prices-prediction/
 
 ## 🔑 Machine Learning Concepts Used
 
-| Concept | What it means |
+| Concept | Definition |
 |---------|--------------|
 | Linear Regression | Algorithm that finds the best-fit line through data points to predict continuous values |
 | Train/Test Split | Dividing data into a training set (to learn patterns) and a test set (to evaluate performance) |
