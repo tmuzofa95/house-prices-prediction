@@ -127,7 +127,7 @@ house-prices-prediction/
 | Train/Test Split | Dividing data into a training set (to learn patterns) and a test set (to evaluate performance) |
 | Features | Input variables (house characteristics) used to make predictions |
 | Target | The output variable we're trying to predict (sale price) |
-| RMSE | Root Mean Squared Error — measures average prediction error in the same units as target |
-| R² Score | Coefficient of determination — explains what percentage of variation the model captures (0-1) |
+| RMSE | Root Mean Squared Error - measures average prediction error in the same units as target |
+| R² Score | Coefficient of determination - explains what percentage of variation the model captures (0-1) |
 
 ---
