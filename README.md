@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-This project demonstrates machine learning skills by building a Linear Regression model to predict house prices. The model was trained on historical house data and achieved an R² score of **0.8844**, meaning it explains 88.44% of the variation in house prices. This project showcases the complete machine learning pipeline from data exploration through model evaluation and visualization.
+This project demonstrates machine learning skills by building a Linear Regression model to predict house prices. The model was trained on historical house data and achieved an R² score of 0.8844, meaning it explains 88.44% of the variation in house prices. This project showcases the complete machine learning pipeline from data exploration through model evaluation and visualization.
 
 ---
 
