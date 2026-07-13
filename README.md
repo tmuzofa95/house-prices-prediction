@@ -70,10 +70,10 @@ Predictions on Test Data
 
 | Metric | Value | Interpretation |
 |--------|-------|-----------------|
-| **R² Score** | 0.8844 | Model explains 88.44% of price variation |
-| **RMSE** | $29,773.44 | Average prediction error is ~$30k |
+| R² Score | 0.8844 | Model explains 88.44% of price variation |
+| RMSE | $29,773.44 | Average prediction error is ~$30k |
 
-**Performance Assessment:** This is strong performance for a beginner machine learning model. The model successfully identifies patterns in house features that correlate with price.
+Performance Assessment: This is strong performance for a beginner machine learning model. The model successfully identifies patterns in house features that correlate with price.
 
 ---
 
