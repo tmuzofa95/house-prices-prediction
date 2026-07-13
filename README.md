@@ -112,10 +112,10 @@ house-prices-prediction/
 
 ## 💡 Key Learnings
 
-- Data preprocessing is critical — cleaning and preparing data took more effort than building the model itself
-- Feature engineering matters — converting categorical variables to numeric format was essential for the algorithm
-- Model evaluation is important — RMSE and R² score help understand model performance in real business terms
-- Visualization reveals insights — the actual vs predicted plot clearly shows where the model performs well and where it struggles
+- Data preprocessing is critical - cleaning and preparing data took more effort than building the model itself
+- Feature engineering matters - converting categorical variables to numeric format was essential for the algorithm
+- Model evaluation is important - RMSE and R² score help understand model performance in real business terms
+- Visualization reveals insights - the actual vs predicted plot clearly shows where the model performs well and where it struggles
 
 ---
 
