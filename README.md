@@ -1,4 +1,4 @@
-# House Prices Prediction — Machine Learning
+# House Prices Prediction - Machine Learning
 
 **Author:** Matthew Muzofa
 
@@ -12,10 +12,10 @@ This project demonstrates machine learning skills by building a Linear Regressio
 
 ## 🗃️ Dataset
 
-- **Source:** [Kaggle — House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- **Source:** [Kaggle - House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - **Training Data:** 1,460 houses with 81 features
 - **Test Data:** 1,459 houses for predictions
-- **Features Include:** Square footage, number of bedrooms, garage size, quality ratings, year built and more
+- **Features Include:** Square footage, number of bedrooms, garage size, quality ratings, year built, and more
 - **Target:** Sale price of the house
 
 ---
@@ -25,10 +25,11 @@ This project demonstrates machine learning skills by building a Linear Regressio
 | Tool | Purpose |
 |------|---------|
 | Python | Programming language |
-| Pandas | Data cleaning and preprocessing |
+| Python (Pandas) | Data cleaning and preprocessing |
 | Scikit-learn | Machine learning model building |
 | Matplotlib & Seaborn | Data visualization |
-| Jupyter Notebook | Development environment |
+| Jupyter Notebook | Python development environment |
+| Kaggle | Dataset source |
 
 ---
 
@@ -56,10 +57,10 @@ Predictions on Test Data
 
 ## 🧹 Data Cleaning Steps
 
-- Dropped columns with >50% missing values (PoolQC, MiscFeature, Alley, Fence)
+- Dropped columns with >50% missing values
 - Filled remaining missing values:
-  - **Numeric columns:** Filled with median value
-  - **Categorical columns:** Filled with mode (most common value)
+  - Numeric columns: Filled with median value
+  - Categorical columns: Filled with mode (most common value)
 - Converted all categorical columns to numeric using one-hot encoding
 - Aligned training and test datasets to have matching features
 
@@ -80,8 +81,8 @@ Predictions on Test Data
 
 | Chart | Description |
 |-------|-------------|
-| `actual_vs_predicted.png` | Scatter plot comparing actual vs predicted prices. Points close to the red diagonal line indicate accurate predictions |
-| `residuals_plot.png` | Shows prediction errors (residuals). Points scattered around zero indicate a well-balanced model |
+| actual_vs_predicted.png | Scatter plot comparing actual vs predicted prices. Points close to the red diagonal line indicate accurate predictions |
+| residuals_plot.png | Shows prediction errors (residuals). Points scattered around zero indicate a well-balanced model |
 
 ---
 
@@ -101,9 +102,9 @@ house-prices-prediction/
 
 ## 🚀 How to Reproduce
 
-1. Download the dataset from Kaggle (link above) and save `train.csv` and `test.csv`
+1. Download the dataset from Kaggle (link above) and save train.csv and test.csv
 2. Place them in the same folder as the notebook
-3. Open `house_prices_prediction.ipynb` in Jupyter Notebook
+3. Open house_prices_prediction.ipynb in Jupyter Notebook
 4. Run all cells in order
 5. The model will train and generate predictions and visualizations
 
@@ -111,10 +112,10 @@ house-prices-prediction/
 
 ## 💡 Key Learnings
 
-- **Data preprocessing is critical** — cleaning and preparing data took more effort than building the model itself
-- **Feature engineering matters** — converting categorical variables to numeric format was essential for the algorithm
-- **Model evaluation is important** — RMSE and R² score help understand model performance in real business terms
-- **Visualization reveals insights** — the actual vs predicted plot clearly shows where the model performs well and where it struggles
+- Data preprocessing is critical — cleaning and preparing data took more effort than building the model itself
+- Feature engineering matters — converting categorical variables to numeric format was essential for the algorithm
+- Model evaluation is important — RMSE and R² score help understand model performance in real business terms
+- Visualization reveals insights — the actual vs predicted plot clearly shows where the model performs well and where it struggles
 
 ---
 
@@ -122,13 +123,11 @@ house-prices-prediction/
 
 | Concept | What it means |
 |---------|--------------|
-| **Linear Regression** | Algorithm that finds the best-fit line through data points to predict continuous values |
-| **Train/Test Split** | Dividing data into training set (to learn patterns) and test set (to evaluate performance) |
-| **Features** | Input variables (house characteristics) used to make predictions |
-| **Target** | The output variable we're trying to predict (sale price) |
-| **RMSE** | Root Mean Squared Error — measures average prediction error in same units as target |
-| **R² Score** | Coefficient of determination — explains what percentage of variation the model captures (0-1) |
+| Linear Regression | Algorithm that finds the best-fit line through data points to predict continuous values |
+| Train/Test Split | Dividing data into a training set (to learn patterns) and a test set (to evaluate performance) |
+| Features | Input variables (house characteristics) used to make predictions |
+| Target | The output variable we're trying to predict (sale price) |
+| RMSE | Root Mean Squared Error — measures average prediction error in the same units as target |
+| R² Score | Coefficient of determination — explains what percentage of variation the model captures (0-1) |
 
 ---
-
-*This project is part of my data analyst portfolio demonstrating entry-level machine learning skills. Feel free to explore the notebook and reach out if you have any feedback.*
